@@ -12,7 +12,7 @@ namespace ElevatorSim
             //b) on floors to call elevator
         //3) dispatcher unit algos
         //4) open/close
-        //5) limitations on car
+        //5) limitations on car ??
 
         //ElevatorSystem()
             // List<Elevator> allElevators

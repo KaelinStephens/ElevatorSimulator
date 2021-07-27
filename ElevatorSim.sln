@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSim", "ElevatorSim\ElevatorSim.csproj", "{8F243A24-FA4A-4E78-B0E0-3453012CDE0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorSim", "ElevatorSim\ElevatorSim.csproj", "{8F243A24-FA4A-4E78-B0E0-3453012CDE0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSimTests", "ElevatorSimTests\ElevatorSimTests.csproj", "{F547AFAB-A15E-4276-9565-59963CA522CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElevatorSimTests", "ElevatorSimTests\ElevatorSimTests.csproj", "{F547AFAB-A15E-4276-9565-59963CA522CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F243A24-FA4A-4E78-B0E0-3453012CDE0C} = {8F243A24-FA4A-4E78-B0E0-3453012CDE0C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
