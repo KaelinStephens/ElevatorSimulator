@@ -5,4 +5,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="Nito.AsyncEx" Version="5.1.0" />
+    <PackageReference Include="Nito.Collections.Deque" Version="1.1.0" />
+    <PackageReference Include="Nito.Disposables" Version="2.2.0" />
+  </ItemGroup>
+
 </Project>
