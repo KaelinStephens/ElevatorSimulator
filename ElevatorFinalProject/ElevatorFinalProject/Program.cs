@@ -37,7 +37,7 @@ namespace ElevatorFinalProject.Console
         {
             //e.EmptyCallCommandBag();
             e._timer.Start();
-            System.Console.WriteLine("I'm working");
+            //System.Console.WriteLine("I'm working");
             return Task.CompletedTask;
         }
     }

@@ -29,7 +29,7 @@ namespace ElevatorFinalProject.Domain.Entities
         public DirectionEnum Direction { get; set; }
 
         public Elevator(ICallCommandService callCommandService, IEventService eventService, int startFloor,
-            int floors = 5, int timerInterval = 2000, int stepDelay = 0)
+            int floors = 5, int timerInterval = 2000, int stepDelay = 500)
         {
             _callCommandService = callCommandService;
             _eventService = eventService;
